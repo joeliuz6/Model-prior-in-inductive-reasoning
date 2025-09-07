@@ -1,0 +1,2 @@
+# Model-prior-in-inductive-reasoning
+Code for EMNLP2025 "On the role of model prior in real-world inductive reasoning"
