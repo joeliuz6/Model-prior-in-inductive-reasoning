@@ -36,21 +36,21 @@ setx OPENAI_API_KEY "your_api_key_here"
 
 **With demonstrations and label configurations:**
 ```bash
-python main.py --with_data data --with_label label
+python main.py --with_data your_choice --data_label your_choice
 ```
 
 ### 5. Arguments Explanation
 
 | Argument | Type | Description |
 |-----------|------|-------------|
-| `--with_data` | str | Include in-context demonstrations in reasoning. |
-| `--with_label` | str | Specify label configuration for reasoning tasks. |
+| `--with_data` | str | Include in-context demonstrations in generation. |
+| `--data_label` | str | Specify label configuration for different tasks. |
 | `--seed` | int | *(Optional)* Random seed for reproducibility. Default: 2 |
-| `--model` | str | *(Optional)* Model name, e.g. `gpt-4-turbo`, `gpt-3.5-turbo`. |
+| `--model` | str | *(Optional)* Model name, e.g. "gpt-4o-2024-05-13". |
 
 **Example:**
 ```bash
-python main.py --with_data --with_label --model gpt-4-turbo
+python main.py --with_data no_data --data_label correct
 ```
 
 
