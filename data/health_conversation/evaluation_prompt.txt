@@ -1,0 +1,15 @@
+You will predict whether a comment is unhealthy based on the provided unhealthy comment patterns.
+Here are some previously generated unhealthy comment patterns:
+{{patterns}}
+A comment is the following: {{text}}
+Is this comment unhealthy?
+Think step-by-step.
+Step 1: Look at the new comment and compare it with the provided unhealthy comment patterns.
+Step 2: If the comment matches the pattern, then it is likely unhealthy. If it does not match the pattern, then it is likely healthy.
+Step 3: Apply the pattern to the new comment and predict whether the new comment is unhealthy.
+Step 4: Give your final answer: yes or no. If you are unsure, respond with no.
+Please give your answer strictly in the following format:
+""" 
+Analysis: [your step-by-step analysis]
+Answer: [your answer]
+"""
