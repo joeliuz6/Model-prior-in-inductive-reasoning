@@ -15,9 +15,7 @@ cd Model-prior-in-inductive-reasoning
 ```
 
 ### 2. Create and Activate Environment
-You can use **conda**.
 
-**Using Conda:**
 ```bash
 conda create -n modelprior python=3.10
 conda activate modelprior
@@ -35,10 +33,6 @@ setx OPENAI_API_KEY "your_api_key_here"
 ```
 
 ### 4. Run `main.py`
-**Basic Run:**
-```bash
-python main.py
-```
 
 **With demonstrations and label configurations:**
 ```bash
@@ -49,8 +43,8 @@ python main.py --with_data data --with_label label
 
 | Argument | Type | Description |
 |-----------|------|-------------|
-| `--with_data` | flag | Include in-context demonstrations in reasoning. |
-| `--with_label` | flag | Specify label configuration for reasoning tasks. |
+| `--with_data` | str | Include in-context demonstrations in reasoning. |
+| `--with_label` | str | Specify label configuration for reasoning tasks. |
 | `--seed` | int | *(Optional)* Random seed for reproducibility. Default: 2 |
 | `--model` | str | *(Optional)* Model name, e.g. `gpt-4-turbo`, `gpt-3.5-turbo`. |
 
