@@ -31,7 +31,7 @@ export OPENAI_API_KEY="your_api_key_here"
 ```powershell
 setx OPENAI_API_KEY "your_api_key_here"
 ```
-
+You need to also fill in the client(api_key="").
 ### 4. Run `main.py`
 
 **With demonstrations and label configurations:**
